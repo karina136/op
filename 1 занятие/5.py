@@ -1,3 +1,4 @@
 # -- coding: utf-8 --
 n=int(input("Введите число= "))
-print(n+n**2+n**3+n**4+n**5)
+s=(n+n**2+n**3+n**4+n**5)
+print(s)
