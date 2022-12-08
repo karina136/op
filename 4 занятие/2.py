@@ -1,9 +1,11 @@
 # -- coding: utf-8 --
 A=int(input("Введите первое число: "))
 B=int(input("Введите второе число: "))
-if A<B:
-    for i in range(A,B+1):
-        print (i, end=";")
-elif A>=B:
-    for i in range(A,B-1, -1):
-        print (i, end=";")
+def fun(x,y):
+    if x<y:
+        for i in range(x,y+1):
+            print (i, end=";")
+    elif x>=y:
+        for i in range(x,y-1, -1):
+            print (i, end=";")
+fun(A,B)
