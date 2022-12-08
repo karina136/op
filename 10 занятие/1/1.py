@@ -31,7 +31,7 @@ b=int(input("Введите число k="))
 
 res = mat_with_operation(a,b)
 print(res)
-write_in_file(res)#запись в файл результатов выполнения программы 
+write_in_file(res)
 
 
 
