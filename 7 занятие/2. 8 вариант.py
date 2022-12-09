@@ -1,12 +1,14 @@
 # -- coding: utf-8 --
 n=int(input("Введите длину массива: "))
 a=[]
-for i in range (n):
-    print("Введите", i, "элемент: ")
-    a.append(float(input()))
-print("Исходный массив: ", a)
-b=sum(a)/len(a)
-for i in range (n):
-    if a[i] == 0:
-        a[i]= b
-print("Полученный массив: ", a)
+def fun(x,y):
+    for i in range (x):
+        print("Введите", i, "элемент: ")
+        y.append(float(input()))
+    print("Исходный массив: ", y)
+    b=sum(y)/len(y)
+    for i in range (x):
+        if y[i] == 0:
+            y[i]= b
+    print("Полученный массив: ", y)
+fun(n,a)
