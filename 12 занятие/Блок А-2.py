@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def f(z,x):
     if (z-x)<0:
         return z
